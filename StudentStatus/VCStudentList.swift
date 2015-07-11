@@ -10,6 +10,8 @@ import UIKit
 
 class VCStudentList: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    // this is the code I will need to create my table view to sort things and create sections on the fly.
+    
     @IBOutlet weak var tableView: UITableView!
     
     var students:[Student] = []
